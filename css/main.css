@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "lobster";
+    src: url(/src/fonts/Lobster-Regular.ttf) format(woff);
+    font-weight: 400;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+}
+
+.info {
+    font-size: 40px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ .mb-4 {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32px;
+ }
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ .button {
+    background-color: #8a797951;
+ }
+ .task-item_buttons {
+    margin: 0px 30px;
+ }
+
+.img-btn {
+    width: 30px;
+    height: 30px;
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control {
+    width: 620px;
+    height: 50px;
+}
+
+.btn {
+    width: 150px;
+    height: 60px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.creative {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 0px 60px;
+}
+
+::marker {
+    color: #000;
+}
+
+* {
+    font-family: "lobster";
+}
+
+.none {
+    display: none !important;
+}
+
+
+
+
+
+.btn-action img {
+    pointer-events: none;
+}
+
+.task-title--done {
+    color: red;
+}
