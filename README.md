@@ -2,6 +2,7 @@
 
 The project is made without libraries using plain JavaScript.
 
+Check performance and functionality: https://not-to-do-list-hazel.vercel.app/
 
 The essence of the application is to create daily tasks for the day with the possibility of:
 1) Write down the task.
