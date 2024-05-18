@@ -109,7 +109,7 @@ function doneTask (event) {
 function checkEmptyList() {
     if(tasks.length === 0) {
         const emptyList = `<li id="emptyList" class="list-group-item empty-list">
-                                <img src="" alt="">
+                                <img class="empty-list_img" src="/assets/img/icons8-дарт-вейдер.svg" alt="">
                                 <div class="empty-list_title">Список дел пуст</div>
                             </li>`;
         taskList.insertAdjacentHTML('afterbegin', emptyList);
@@ -136,9 +136,9 @@ function renderTask(task) {
                         <span class="${cssClass}">${task.text}</span>
                         <div class="task-item_buttons">
                             <button type="button" data-action="done" class="btn-action">
-                                <img class="img-btn" src="/src/img/done.png" alt="Done"></button>
+                                <img class="img-btn" src="/assets/img/done.png" alt="Done"></button>
                             <button type="button" data-action="delete" class="btn-action">
-                                <img class="img-btn" src="/src/img/delete.png" alt="Done"></button>
+                                <img class="img-btn" src="/assets/img/delete.png" alt="Done"></button>
                         </div>
                     </li>`;
 

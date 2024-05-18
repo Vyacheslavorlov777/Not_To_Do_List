@@ -1,6 +1,6 @@
 @font-face {
     font-family: "lobster";
-    src: url(/src/fonts/Lobster-Regular.ttf) format(woff);
+    src: url(/assets/fonts/Lobster-Regular.ttf) format(woff);
     font-weight: 400;
 }
 
@@ -87,6 +87,14 @@
 }
 
 
+
+
+.empty-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
