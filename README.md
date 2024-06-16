@@ -1,4 +1,5 @@
 # Not_To_Do_List
+![alt-текст](https://github.com/Vyacheslavorlov777/Not_To_Do_List/blob/main/assets/img/Logo.png "Текст заголовка логотипа 1")
 
 The project is made without libraries using plain JavaScript.
 
